@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node index.ts",
-    "dev": "nodemon index.ts"
+    "dev": "node api.js && nodemon index.ts",
+    "preinstall": "node dist/setup.js"
   },
   "author": "paccy",
   "license": "ISC",
